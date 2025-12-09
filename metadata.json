@@ -1,0 +1,4 @@
+{
+  "name": "SceneDetector",
+  "description": "A modern React frontend for Intel Image Scene Classification using ResNet18."
+}
