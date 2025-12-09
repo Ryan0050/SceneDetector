@@ -1,8 +1,7 @@
 import { PredictionResult, SceneLabel } from '../types';
 
 export const classifyImage = async (file: File): Promise<PredictionResult> => {
-  // Define the API endpoint - assumes standard Flask local development port
-  const API_URL = 'http://127.0.0.1:5000/predict';
+  const API_URL = 'https://ryanss05-scenedetectorbackend.hf.space/predict';
 
   const formData = new FormData();
   formData.append('file', file);
